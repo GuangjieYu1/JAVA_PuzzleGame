@@ -6,10 +6,11 @@ import java.util.HashSet;
 import java.util.Random;
 
 public class GameJFrame extends JFrame {
+    private int[][] imageIndex = new int[4][4];
     private static final int ICON_HEIGHT = 105;
     private static final int ICON_WIDTH = 105;
     //JFrame 界面窗体
-    //
+
     public GameJFrame(){
         //初始化界面
         initJFrame();
@@ -17,11 +18,18 @@ public class GameJFrame extends JFrame {
         //初始化菜单
         initJMenuBar();
 
+        //初始化数据（打乱）
+        initData();
+
         //初始化图片
         initImage();
 
         //让界面显示出来，建议写在最后
         this.setVisible(true);
+    }
+
+    private void initData() {
+        randomArr();
     }
 
     private void initImage() {
@@ -33,7 +41,16 @@ public class GameJFrame extends JFrame {
 //        jLabel.setBounds(0,0,105,105);
 //        this.getContentPane().add(jLabel);
 
-        String pathFront = "image/animal/animal1/";
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+                int number = imageIndex[i][j];
+                JLabel jLabel = new JLabel(new ImageIcon("image/animal/animal3/"+number+".jpg"));
+                jLabel.setBounds(105*i,105*j,ICON_WIDTH,ICON_HEIGHT);
+                this.getContentPane().add(jLabel);
+            }
+        }
+
+        /*String pathFront = "image/animal/animal1/";
         String pathEnd = ".jpg";
         ArrayList<ArrayList<JLabel>> jLabelArrArr = new ArrayList<>();
         int[] imageIndex = new int[16];
@@ -64,16 +81,32 @@ public class GameJFrame extends JFrame {
                 xCurr+= ICON_WIDTH+15;
             }
             yCurr += ICON_HEIGHT+15;
-        }
+        }*/
     }
-    private int[] randomIndex(int length){
+    public void randomArr(){
+        int length = 16;
+        int[] arrRes= new int[length];
         Random r = new Random();
-        HashSet<Integer> setOrigin = new HashSet<>();
-        int[] arrResult = new int[length];
-        for (int i = 0; i < length; i++) {
-           setOrigin.add(i);
+        for (int i = 0; i < arrRes.length; i++) {
+            arrRes[i] = i;
         }
-        return arrResult;
+        for (int i = 0; i < arrRes.length; i++) {
+            int index = r.nextInt(arrRes.length);
+            int temp = arrRes[i];
+            arrRes[i] = arrRes[index];
+            arrRes[index] = temp;
+        }
+        for (int i = 0; i < arrRes.length; i++) {
+            this.imageIndex[i/4][i%4] = arrRes[i];
+            System.out.print(arrRes[i]+" ");
+        }
+        System.out.println();
+        for (int i = 0; i < 4; i++) {
+            for (int i1 = 0; i1 < 4; i1++) {
+                System.out.print(this.imageIndex[i][i1]+" ");
+            }
+            System.out.println();
+        }
 
     }
 
