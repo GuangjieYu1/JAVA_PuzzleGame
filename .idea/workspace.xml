@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eba203a-4276-4789-b8e1-cf9bfe4ce850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PuzzleGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itheima/ui/GameJFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itheima/ui/LoginJFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itheima/ui/RegisterJframe.java" afterDir="false" />
+    <list default="true" id="7eba203a-4276-4789-b8e1-cf9bfe4ce850" name="Changes" comment="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +49,29 @@
       <option name="presentableId" value="Default" />
       <updated>1673103848547</updated>
     </task>
+    <task id="LOCAL-00001" summary="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件">
+      <created>1673106205216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673106205216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件" />
   </component>
 </project>
