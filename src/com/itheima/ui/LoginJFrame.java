@@ -30,7 +30,7 @@ public class LoginJFrame extends JFrame {
     }
     private void initButton(){
         JButton jtb = new JButton("登录");
-        jtb.setBounds(0,0,10,10);
+        jtb.setBounds(0,0,100,100);
         jtb.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

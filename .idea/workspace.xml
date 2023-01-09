@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eba203a-4276-4789-b8e1-cf9bfe4ce850" name="Changes" comment="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件">
+    <list default="true" id="7eba203a-4276-4789-b8e1-cf9bfe4ce850" name="Changes" comment="上传了image文件夹">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itheima/ui/GameJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/ui/GameJFrame.java" afterDir="false" />
@@ -40,9 +40,30 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/guangjieyu/Desktop/JAVA/project/Java_PuzzleGame&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="PuzzleGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,36 +73,10 @@
       <option name="presentableId" value="Default" />
       <updated>1673103848547</updated>
     </task>
-    <task id="LOCAL-00001" summary="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件">
-      <created>1673106205216</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1673106205216</updated>
-    </task>
-    <task id="LOCAL-00002" summary="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件">
-      <created>1673148962059</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1673148962059</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件" />
+    <MESSAGE value="上传了image文件夹" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传了image文件夹" />
   </component>
 </project>
