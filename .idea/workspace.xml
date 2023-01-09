@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eba203a-4276-4789-b8e1-cf9bfe4ce850" name="Changes" comment="上传了image文件夹">
+    <list default="true" id="7eba203a-4276-4789-b8e1-cf9bfe4ce850" name="Changes" comment="在登录创建了按钮对象（例子），写了打乱数字的方法，实现了随即索引，重写了关于图像展现的部分">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itheima/ui/GameJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/ui/GameJFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itheima/ui/LoginJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/ui/LoginJFrame.java" afterDir="false" />
     </list>
@@ -40,16 +39,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/guangjieyu/Desktop/JAVA/project/Java_PuzzleGame&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
@@ -73,10 +65,36 @@
       <option name="presentableId" value="Default" />
       <updated>1673103848547</updated>
     </task>
+    <task id="LOCAL-00001" summary="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件">
+      <created>1673106205216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673106205216</updated>
+    </task>
+    <task id="LOCAL-00002" summary="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件">
+      <created>1673148962059</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673148962059</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="上传了image文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传了image文件夹" />
+    <MESSAGE value="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建了GameJFrame, LoginJFrame, RegisterJframe三个类文件" />
   </component>
 </project>
